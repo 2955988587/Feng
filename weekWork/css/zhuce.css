@@ -1,0 +1,431 @@
+@charset "UTF-8";
+#top {
+  background: #F7F7F7;
+  width: 100%;
+  border-top: 1px solid #eee;
+}
+
+.top {
+  height: 30px;
+  position: relative;
+  font-size: 12px;
+  color: #666666;
+}
+.top .favorite {
+  position: absolute;
+  top: 8px;
+  left: 1px;
+}
+.top .quick_list {
+  position: absolute;
+  top: 8px;
+  right: 18px;
+}
+.top a:hover {
+  color: red;
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+#w {
+  width: 100%;
+  background: #EEF3FA;
+}
+
+.w {
+  height: 80px;
+  position: relative;
+}
+.w #logo {
+  padding: 10px 0;
+}
+.w #logo b {
+  position: absolute;
+  font-size: 30px;
+  text-align: center;
+  background-color: #f1f1f1;
+  width: 150px;
+  height: 46px;
+  margin-left: 20px;
+  top: 18px;
+}
+
+#first {
+  width: 100%;
+  background: #EEF3FA;
+}
+
+.first {
+  background: #F2F2F2;
+  width: 100%;
+  line-height: 33px;
+  background: #F2F2F2;
+  font-size: 12px;
+  text-align: right;
+  padding-right: 25px;
+}
+.first a:hover {
+  text-decoration: underline;
+}
+
+#zhucetable {
+  width: 100%;
+  background: #EEF3FA;
+}
+
+.zhucetable {
+  height: 626px;
+  position: relative;
+  border: 1px solid #cccccc;
+}
+.zhucetable .createform {
+  height: 623px;
+  background: #FFFFFF;
+  padding-top: 51px;
+}
+.zhucetable .createform .cellphone {
+  width: 900px;
+  height: 60px;
+  padding-top: 9px;
+}
+.zhucetable .createform .cellphone span {
+  display: inline-block;
+  width: 190px;
+  text-align: right;
+  font-size: 14px;
+  color: #999;
+  padding-right: 10px;
+}
+.zhucetable .createform .cellphone div {
+  display: inline-block;
+  width: 270px;
+  border: 1px solid #cccccc;
+}
+.zhucetable .createform .cellphone div input {
+  width: 238px;
+  height: 16px;
+  padding: 18px 25px 18px 12px;
+  float: none;
+  font-size: 14px;
+  font-family: arial, "瀹嬩綋";
+  color: #999;
+}
+.zhucetable .createform .cellphone div img {
+  text-align: center;
+}
+.zhucetable .createform .cellphone .cell1 {
+  float: right;
+  margin-right: 155px;
+  width: 272px;
+  height: 38px;
+  border: 1px solid #dddddd;
+  background: #f7f7f7;
+  font-size: 12px;
+  padding-left: 10px;
+  line-height: 38px;
+  color: #666;
+  display: none;
+}
+.zhucetable .createform .cellphone .cell2 {
+  display: inline-block;
+  width: 272px;
+  height: 38px;
+  border: 1px solid #ffbdbe;
+  background: #FFEBEB;
+  font-size: 12px;
+  line-height: 38px;
+  padding-left: 10px;
+  color: #e3393c;
+  display: none;
+  position: absolute;
+  top: 60px;
+  left: 475px;
+}
+.zhucetable .createform .yanzheng {
+  width: 900px;
+  height: 60px;
+  padding-top: 9px;
+}
+.zhucetable .createform .yanzheng span {
+  display: inline-block;
+  width: 190px;
+  text-align: right;
+  font-size: 14px;
+  color: #999;
+  padding-right: 10px;
+}
+.zhucetable .createform .yanzheng .slider {
+  height: 38px;
+  position: absolute;
+  left: 195px;
+  top: 118px;
+  width: 270px;
+  background-color: #ccc;
+  z-index: 1;
+}
+.zhucetable .createform .yanzheng .slider .label {
+  width: 46px;
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 38px;
+  line-height: 38px;
+  border: 1px solid #cccccc;
+  background: #fff;
+  z-index: 3;
+  cursor: move;
+  color: #ccc;
+  font-size: 16px;
+  font-weight: 900;
+}
+.zhucetable .createform .yanzheng .slider .labelTip {
+  position: absolute;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  font-size: 13px;
+  font-family: 'Microsoft Yahei', serif;
+  color: #787878;
+  line-height: 38px;
+  text-align: center;
+  z-index: 2;
+}
+.zhucetable .createform .password {
+  width: 900px;
+  height: 60px;
+  padding-top: 9px;
+}
+.zhucetable .createform .password span {
+  display: inline-block;
+  width: 190px;
+  text-align: right;
+  font-size: 14px;
+  color: #999;
+  padding-right: 10px;
+}
+.zhucetable .createform .password div {
+  display: inline-block;
+  width: 270px;
+  border: 1px solid #cccccc;
+}
+.zhucetable .createform .password div input {
+  width: 238px;
+  height: 16px;
+  padding: 18px 25px 18px 12px;
+  float: none;
+  font-size: 14px;
+  font-family: arial, "瀹嬩綋";
+  color: #999;
+}
+.zhucetable .createform .password div img {
+  text-align: center;
+}
+.zhucetable .createform .password .pass1 {
+  float: right;
+  margin-right: 155px;
+  width: 272px;
+  height: 38px;
+  border: 1px solid #dddddd;
+  background: #f7f7f7;
+  font-size: 12px;
+  padding-left: 10px;
+  line-height: 19px;
+  color: #666;
+  display: none;
+}
+.zhucetable .createform .password .pass2 {
+  width: 272px;
+  height: 38px;
+  border: 1px solid #ffbdbe;
+  background: #FFEBEB;
+  font-size: 12px;
+  padding-left: 10px;
+  line-height: 38px;
+  color: red;
+  display: none;
+  position: absolute;
+  top: 180px;
+  left: 475px;
+}
+.zhucetable .createform .password2 {
+  width: 900px;
+  height: 60px;
+  padding-top: 9px;
+}
+.zhucetable .createform .password2 span {
+  display: inline-block;
+  width: 190px;
+  text-align: right;
+  font-size: 14px;
+  color: #999;
+  padding-right: 10px;
+}
+.zhucetable .createform .password2 div {
+  display: inline-block;
+  width: 270px;
+  border: 1px solid #cccccc;
+}
+.zhucetable .createform .password2 div input {
+  width: 238px;
+  height: 16px;
+  padding: 18px 25px 18px 12px;
+  float: none;
+  font-size: 14px;
+  font-family: arial, "瀹嬩綋";
+  color: #999;
+}
+.zhucetable .createform .password2 div img {
+  text-align: center;
+}
+.zhucetable .createform .password2 .again {
+  color: #666;
+  line-height: 36px;
+  background: #f7f7f7;
+  border: 1px solid #dddddd;
+  font-size: 12px;
+  padding-left: 10px;
+  display: none;
+  position: absolute;
+  top: 240px;
+  left: 475px;
+}
+.zhucetable .createform .password2 .again2 {
+  color: #e4393c;
+  line-height: 36px;
+  height: 36px;
+  position: absolute;
+  top: 240px;
+  font-size: 12px;
+  left: 475px;
+  padding-left: 10px;
+  display: none;
+  background: #FFEBEB;
+  border: 1px solid #ffbdbe;
+}
+.zhucetable .createform .shoujicod {
+  width: 900px;
+  height: 60px;
+  padding-top: 9px;
+}
+.zhucetable .createform .shoujicod span {
+  display: inline-block;
+  width: 190px;
+  text-align: right;
+  font-size: 14px;
+  color: #999;
+  padding-right: 10px;
+}
+.zhucetable .createform .shoujicod div {
+  display: inline-block;
+  width: 272px;
+}
+.zhucetable .createform .shoujicod div .codinput {
+  width: 132px;
+  border: 1px solid #cccccc;
+  height: 16px;
+  padding: 17px 25px 17px 12px;
+  float: none;
+  font-size: 14px;
+  font-family: arial, "瀹嬩綋";
+  color: #999;
+}
+.zhucetable .createform .shoujicod div .codbtn {
+  margin-left: 10px;
+  border: 1px solid #dddddd;
+  padding: 0;
+  width: 106px;
+  height: 36px;
+  background: #f4f4f4;
+  margin-top: 0;
+  text-align: center;
+  line-height: 36px;
+  color: #333;
+  text-decoration: none;
+  cursor: pointer;
+}
+.zhucetable .createform .shoujicod div .codbtn:hover {
+  color: red;
+}
+.zhucetable .createform .shoujicod div .yanzhengma {
+  width: 60px;
+  height: 36px;
+  border: 1px solid #ccc;
+  display: none;
+  position: absolute;
+  top: 300px;
+  left: 455px;
+  color: #ccc;
+  text-align: center;
+  line-height: 36px;
+}
+.zhucetable .createform .shoujicod div .warning {
+  color: #e4393c;
+  line-height: 36px;
+  height: 36px;
+  position: absolute;
+  top: 300px;
+  font-size: 12px;
+  left: 544px;
+  padding-left: 10px;
+  display: none;
+  background: #FFEBEB;
+  border: 1px solid #ffbdbe;
+}
+.zhucetable .createform .yuedu {
+  width: 900px;
+  height: 60px;
+  padding-top: 9px;
+}
+.zhucetable .createform .yuedu span {
+  display: inline-block;
+  width: 200px;
+  height: 33px;
+}
+.zhucetable .createform .yuedu div {
+  display: inline-block;
+  font-size: 12px;
+}
+.zhucetable .createform .yuedu div a {
+  color: #e3393c;
+  cursor: pointer;
+}
+.zhucetable .createform .yuedu div a:hover {
+  text-decoration: underline;
+}
+.zhucetable .createform .queren {
+  width: 900px;
+  height: 60px;
+  padding-top: 20px;
+}
+.zhucetable .createform .queren span {
+  display: inline-block;
+  width: 200px;
+  height: 33px;
+}
+.zhucetable .createform .queren input {
+  display: inline-block;
+  width: 270px;
+  height: 36px;
+  color: #FFF;
+  font-size: 16px;
+  font-weight: 800;
+  overflow: hidden;
+  background: #E33A3D;
+  cursor: pointer;
+}
+
+#footer {
+  background: #EEF3FA;
+}
+
+.footer {
+  width: 990px;
+  height: 60px;
+  padding-top: 6px;
+}
+.footer span {
+  font-size: 12px;
+  padding-left: 400px;
+}
+
+/*# sourceMappingURL=zhuce.css.map */

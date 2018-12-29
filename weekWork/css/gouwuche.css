@@ -1,0 +1,348 @@
+#top {
+  width: 100%;
+  background: #f5f4f4;
+}
+
+.top {
+  height: 31px;
+  color: #7f7f7a;
+  position: relative;
+  border-bottom: 1px solid #e6e6e6;
+}
+.top span {
+  display: inline-block;
+  font-size: 12px;
+  height: 100%;
+}
+.top span a {
+  color: black;
+}
+.top span .a1 {
+  color: red;
+}
+.top .midUL {
+  display: inline-block;
+  width: 200px;
+  font-size: 12px;
+  margin-left: 44px;
+}
+.top .midUL li {
+  float: left;
+  width: 61px;
+}
+.top .midUL li a {
+  cursor: pointer;
+}
+.top .midUL li a i {
+  display: inline-block;
+  color: red;
+}
+.top .midUL .midUL2 {
+  padding-left: 13px;
+}
+.top .rightUL {
+  float: right;
+}
+.top .rightUL li {
+  float: left;
+  height: 30px;
+  padding: 0 10px 0 10px;
+}
+.top .rightUL li a {
+  font-size: 12px;
+  cursor: pointer;
+}
+.top .rightUL li .top_1 {
+  border: 1px solid #ccc;
+  z-index: 12;
+  width: 80px;
+  display: none;
+}
+.top .rightUL li .top_1 p {
+  line-height: 25px;
+  height: 25px;
+  font-size: 12px;
+}
+.top .rightUL .top_l6:hover {
+  margin-top: 5px;
+  border: 1px solid #ccc;
+  background: #fff;
+}
+.top .rightUL .top_l1:hover {
+  margin-top: 5px;
+  border: 1px solid #ccc;
+  background: #fff;
+}
+.top .rightUL .top_l1:hover .top_1 {
+  display: block;
+  margin-top: 8px;
+}
+
+#logo {
+  width: 100%;
+}
+
+.logo {
+  width: 990px;
+  height: 85px;
+  position: relative;
+  margin-bottom: 10px;
+}
+.logo img {
+  width: 200px;
+  height: 60px;
+  margin: 10px 0;
+}
+.logo #step {
+  width: 481px;
+  padding-top: 35px;
+  position: absolute;
+  top: -28px;
+  right: 37px;
+  height: 30px;
+}
+.logo #step img {
+  width: 481px;
+  height: 30px;
+}
+.logo ul {
+  width: 481px;
+  padding-top: 35px;
+  position: absolute;
+  top: 21px;
+  right: 32px;
+  height: 23px;
+}
+.logo ul li {
+  float: left;
+  font-size: 12px;
+  padding: 0 40px 0 40px;
+}
+
+#maingou {
+  width: 100%;
+}
+
+.maingou {
+  width: 990px;
+  margin-bottom: 20px;
+}
+.maingou h3 {
+  width: 990px;
+  font-size: 20px;
+  line-height: 35px;
+}
+.maingou .message {
+  width: 990px;
+}
+.maingou .message .message_thead {
+  width: 990px;
+  height: 35px;
+  background-color: #eff2f5;
+  font-size: 12px;
+}
+.maingou .message .message_thead .kuang {
+  float: left;
+  width: 99px;
+  height: 35px;
+  border-right: 1px solid #f7f7f7;
+  float: left;
+  text-align: center;
+  line-height: 35px;
+  color: #666;
+  width: 100px;
+  height: 35px;
+}
+.maingou .message .message_thead .sp {
+  float: left;
+  width: 520px;
+  text-align: center;
+  line-height: 35px;
+  border-right: 1px solid #f7f7f7;
+  height: 35px;
+}
+.maingou .message .message_thead .scj {
+  width: 129px;
+  border-right: 1px solid #f7f7f7;
+  text-align: right;
+  line-height: 35px;
+  height: 35px;
+  float: left;
+}
+.maingou .message .message_thead .sl {
+  float: left;
+  border-right: 1px solid #f7f7f7;
+  width: 136px;
+  height: 35px;
+  text-align: center;
+  line-height: 35px;
+}
+.maingou .message .message_thead .cz {
+  float: left;
+  border-right: 1px solid #f7f7f7;
+  width: 99px;
+  text-align: center;
+  line-height: 35px;
+  height: 35px;
+}
+.maingou .message .xianshi {
+  width: 990px;
+  background: #FDFDF7;
+  height: 78px;
+  border: 1px solid #ddd;
+  margin-top: 15px;
+  margin-bottom: 20px;
+}
+.maingou .message .xianshi .gouxuan {
+  width: 50px;
+  height: 50px;
+  line-height: 50px;
+  text-align: center;
+  float: left;
+}
+.maingou .message .xianshi .real {
+  width: 570px;
+  height: 52px;
+  float: left;
+  float: left;
+}
+.maingou .message .xianshi .real p {
+  font-size: 12px;
+  width: 250px;
+  height: 36px;
+  margin-top: 10px;
+  line-height: 36px;
+  padding-left: 10px;
+  float: left;
+  overflow: hidden;
+}
+.maingou .message .xianshi .real img {
+  margin-top: 10px;
+  width: 50px;
+  height: 50px;
+  display: block;
+  float: left;
+  border: 1px solid #ccc;
+}
+.maingou .message .xianshi .xianshiPrice {
+  width: 130px;
+  text-align: right;
+  line-height: 78px;
+  height: 52px;
+  float: left;
+  color: #e3393c;
+  font-family: Verdana, Arial;
+}
+.maingou .message .xianshi .xianshiQua {
+  width: 135px;
+  height: 52px;
+  text-align: center;
+  line-height: 78px;
+  float: left;
+}
+.maingou .message .xianshi .xianshiQua .formm {
+  width: 76px;
+  height: 22px;
+  margin: 0 auto;
+  margin-top: 25px;
+  overflow: hidden;
+  text-align: left;
+}
+.maingou .message .xianshi .xianshiQua .formm .delbtn {
+  float: left;
+  width: 15px;
+  height: 15px;
+  font-size: 12px;
+  margin-top: 4px;
+  border: 1px solid #ccc;
+}
+.maingou .message .xianshi .xianshiQua .formm .addbtn {
+  float: left;
+  border: 1px solid #ccc;
+  width: 15px;
+  margin-top: 5px;
+  font-size: 12px;
+  margin-left: 2px;
+  height: 15px;
+}
+.maingou .message .xianshi .xianshiQua .formm .ssx {
+  width: 36px;
+  height: 22px;
+  float: left;
+  margin-left: 2px;
+  border: 1px solid #ccc;
+}
+.maingou .message .xianshi .xianshiDEL {
+  width: 99px;
+  height: 52px;
+  text-align: center;
+  line-height: 78px;
+  float: left;
+}
+.maingou .message .xianshi .xianshiDEL a {
+  font-size: 12px;
+}
+.maingou .message .xianshi .xiaoji {
+  width: 99px;
+  height: 20px;
+  text-align: center;
+  float: right;
+  font-size: 12px;
+  color: red;
+}
+.maingou .zhongjia {
+  width: 990px;
+  height: 49px;
+  background-color: #eff2f5;
+  border: 1px solid #ddd;
+  margin-bottom: 10px;
+  line-height: 49px;
+}
+.maingou .zhongjia .all {
+  width: 168px;
+  float: right;
+  font-size: 12px;
+  margin-top: 1px;
+  height: 20px;
+}
+.maingou .zhongjia a {
+  width: 120px;
+  height: 36px;
+  float: right;
+  margin-top: 5px;
+  border: 1px solid red;
+  color: #fff;
+  text-align: center;
+  line-height: 36px;
+  border-radius: 10px;
+  background: red;
+}
+.maingou .shangpingtui {
+  width: 1010px;
+  height: 248px;
+}
+.maingou .shangpingtui li {
+  float: left;
+  float: left;
+  width: 182px;
+  border: 1px solid #f1f1f1;
+  height: 220px;
+  margin-bottom: 26px;
+  margin-right: 18px;
+}
+.maingou .shangpingtui li img {
+  width: 180px;
+  height: 182px;
+}
+.maingou .shangpingtui li p {
+  text-align: center;
+  margin-top: 8px;
+  height: 18px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  padding: 0 15px;
+  width: 152px;
+}
+
+/*# sourceMappingURL=gouwuche.css.map */

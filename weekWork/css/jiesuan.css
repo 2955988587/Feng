@@ -1,0 +1,239 @@
+#top {
+  width: 100%;
+  background: #f5f4f4;
+}
+
+.top {
+  height: 31px;
+  color: #7f7f7a;
+  position: relative;
+  border-bottom: 1px solid #e6e6e6;
+}
+.top span {
+  display: inline-block;
+  font-size: 12px;
+  height: 100%;
+}
+.top span a {
+  color: black;
+}
+.top span .a1 {
+  color: red;
+}
+.top .midUL {
+  display: inline-block;
+  width: 200px;
+  font-size: 12px;
+  margin-left: 44px;
+}
+.top .midUL li {
+  float: left;
+  width: 61px;
+}
+.top .midUL li a {
+  cursor: pointer;
+}
+.top .midUL li a i {
+  display: inline-block;
+  color: red;
+}
+.top .midUL .midUL2 {
+  padding-left: 13px;
+}
+.top .rightUL {
+  float: right;
+}
+.top .rightUL li {
+  float: left;
+  height: 30px;
+  padding: 0 10px 0 10px;
+}
+.top .rightUL li a {
+  font-size: 12px;
+  cursor: pointer;
+}
+.top .rightUL li .top_1 {
+  border: 1px solid #ccc;
+  z-index: 12;
+  width: 80px;
+  display: none;
+}
+.top .rightUL li .top_1 p {
+  line-height: 25px;
+  height: 25px;
+  font-size: 12px;
+}
+.top .rightUL .top_l6:hover {
+  margin-top: 5px;
+  border: 1px solid #ccc;
+  background: #fff;
+}
+.top .rightUL .top_l1:hover {
+  margin-top: 5px;
+  border: 1px solid #ccc;
+  background: #fff;
+}
+.top .rightUL .top_l1:hover .top_1 {
+  display: block;
+  margin-top: 8px;
+}
+
+#logo {
+  width: 100%;
+}
+
+.logo {
+  width: 990px;
+  height: 85px;
+  position: relative;
+  margin-bottom: 10px;
+}
+.logo img {
+  width: 200px;
+  height: 60px;
+  margin: 10px 0;
+}
+.logo #step {
+  width: 481px;
+  padding-top: 35px;
+  position: absolute;
+  top: -28px;
+  right: 37px;
+  height: 30px;
+}
+.logo #step img {
+  width: 481px;
+  height: 30px;
+}
+.logo ul {
+  width: 481px;
+  padding-top: 35px;
+  position: absolute;
+  top: 21px;
+  right: 32px;
+  height: 23px;
+}
+.logo ul li {
+  float: left;
+  font-size: 12px;
+  padding: 0 40px 0 40px;
+}
+
+#checkout {
+  width: 100%;
+}
+
+.checkout {
+  width: 990px;
+  border: 1px solid #ddd;
+  margin-bottom: 20px;
+}
+.checkout .mt {
+  height: 28px;
+  background-color: #eff2f5;
+  padding-top: 7px;
+}
+.checkout .mt span {
+  font-size: 14px;
+  color: #6a7c86;
+  padding-left: 10px;
+}
+.checkout .step_1 {
+  width: 990px;
+  border-bottom: 1px solid #ddd;
+  position: relative;
+}
+.checkout .step_1 .step_1_title {
+  height: 45px;
+  padding: 0 10px;
+  font-size: 12px;
+  line-height: 45px;
+}
+.checkout .step_1 .step_1_title strong {
+  color: #6a7c86;
+  float: left;
+}
+.checkout .step_1 .step_1_title span {
+  color: #e3393c;
+  float: left;
+}
+.checkout .step_1 .step_1_content {
+  font-size: 12px;
+  color: #6a7c86;
+}
+.checkout .step_1 .step_1_content input {
+  float: left;
+  margin-left: 50px;
+  background: #fff;
+  cursor: pointer;
+}
+.checkout .step_1 .step_1_content p {
+  float: left;
+}
+.checkout .step_1 .step_1_content span {
+  display: block;
+  height: 30px;
+  background-color: #ff4d50;
+  border-radius: 4px;
+  cursor: pointer;
+  height: 30px;
+  text-align: center;
+  font-size: 14px;
+  width: 140px;
+  color: #fff;
+  line-height: 30px;
+  margin-top: 20px;
+  font-weight: 600;
+  margin-left: 50px;
+  margin-bottom: 20px;
+}
+.checkout .support {
+  width: 990px;
+  border-bottom: 1px solid #ddd;
+}
+.checkout .support .support_title {
+  height: 45px;
+  padding: 0 10px;
+  line-height: 45px;
+  color: #6a7c86;
+  font-size: 12px;
+}
+.checkout .support .support_content {
+  padding: 0px 0 10px;
+  color: #999;
+  font-size: 12px;
+  margin-left: 50px;
+}
+.checkout .fapiao {
+  width: 990px;
+  border-bottom: 1px solid #ddd;
+}
+.checkout .fapiao .fapiao_title {
+  height: 45px;
+  width: 990px;
+  padding: 0 10px;
+  line-height: 45px;
+}
+.checkout .fapiao .fapiao_title strong {
+  color: #6a7c86;
+  font-size: 12px;
+}
+.checkout .fapiao .fapiao_content {
+  width: 990px;
+  margin-left: 50px;
+  height: 27px;
+  font-size: 12px;
+}
+.checkout .qindan {
+  width: 990px;
+}
+.checkout .qindan strong {
+  height: 45px;
+  width: 990px;
+  padding: 0 10px;
+  line-height: 45px;
+  color: #6a7c86;
+  font-size: 12px;
+}
+
+/*# sourceMappingURL=jiesuan.css.map */

@@ -1,0 +1,265 @@
+body {
+  background: #F2F2F2;
+}
+
+#top {
+  width: 100%;
+}
+
+.top {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  position: relative;
+  height: 80px;
+}
+.top img {
+  display: inline-block;
+  width: 433px;
+  height: 60px;
+}
+.top p {
+  display: inline-block;
+  width: 111px;
+  height: 46px;
+  border-left: 1px solid #ccc;
+  margin-left: 20px;
+  position: absolute;
+  top: 20px;
+  font-size: 23px;
+  font-weight: 500;
+  line-height: 46px;
+  text-align: right;
+}
+
+#main {
+  width: 100%;
+  margin: 55px auto 0;
+}
+
+.main {
+  width: 890px;
+  height: 410px;
+  border: 5px solid #e8e8e8;
+  border-radius: 3px;
+  position: relative;
+}
+.main .zhongjian {
+  border: 1px solid #e1e1e1;
+  background: #ffffff;
+  height: 400px;
+}
+.main .zhongjian div {
+  width: 460px;
+  height: 400px;
+  float: left;
+  background-size: cover;
+}
+.main .zhongjian .tab {
+  float: left;
+  margin-left: 55px;
+  overflow: hidden;
+  height: 354px;
+  width: 321px;
+  overflow: hidden;
+  position: relative;
+}
+.main .zhongjian .tab ul {
+  height: 54px;
+  border-bottom: 1px solid #fbfbfb;
+}
+.main .zhongjian .tab ul li {
+  display: block;
+  font-size: 18px;
+  height: 54px;
+  line-height: 54px;
+  width: 160px;
+  text-align: center;
+  float: left;
+}
+.main .zhongjian .tab ul li a {
+  display: block;
+  width: 160px;
+  line-height: 18px;
+  margin: 18px 0;
+}
+.main .zhongjian .tab ul li .a1 {
+  border-right: 1px solid #ccc;
+}
+.main .zhongjian .tab ul .content {
+  width: 321px;
+  height: 263px;
+}
+.main .zhongjian .tab ul .content .saoma {
+  width: 321px;
+  height: 230px;
+}
+.main .zhongjian .tab ul .content .saoma p {
+  vertical-align: top;
+  text-align: center;
+}
+.main .zhongjian .tab ul .content .saoma p img {
+  width: 159px;
+  height: 159px;
+}
+.main .zhongjian .tab ul .content .saoma span {
+  color: #aaaaaa;
+  font-size: 12px;
+  height: 45px;
+  line-height: 45px;
+  padding-left: 60px;
+}
+.main .zhongjian .tab ul .content .saoma span a {
+  cursor: pointer;
+  color: red;
+}
+.main .zhongjian .tab ul .content .saoma .dibu {
+  padding-left: 40px;
+}
+.main .zhongjian .tab ul .zhanghu {
+  position: absolute;
+  top: 0;
+  left: 160px;
+}
+.main .zhongjian .tab ul .zhanghao {
+  width: 321px;
+  display: none;
+  height: 263px;
+}
+.main .zhongjian .tab ul .zhanghao .tips {
+  position: relative;
+  background: #fef4e5;
+  color: #666;
+  border: 1px solid #f6c090;
+  font-size: 12px;
+  width: 318px;
+  padding: 3px 0 3px 30px;
+  line-height: 15px;
+  height: auto;
+  margin-bottom: 10px;
+}
+.main .zhongjian .tab ul .zhanghao .mingzi {
+  width: 321px;
+  height: 38px;
+}
+.main .zhongjian .tab ul .zhanghao .mingzi .tupian {
+  border: 1px solid #ccc;
+  width: 38px;
+  height: 38px;
+}
+.main .zhongjian .tab ul .zhanghao .mingzi .tupian img {
+  width: 38px;
+  height: 36px;
+}
+.main .zhongjian .tab ul .zhanghao .mingzi input {
+  width: 275px;
+  height: 38px;
+  border: 1px solid #ccc;
+  border-left: none;
+  padding-left: 10px;
+}
+.main .zhongjian .tab ul .zhanghao .mima {
+  width: 321px;
+  height: 38px;
+  padding-top: 15px;
+}
+.main .zhongjian .tab ul .zhanghao .mima .tupian2 {
+  border: 1px solid #ccc;
+  width: 38px;
+  height: 36px;
+}
+.main .zhongjian .tab ul .zhanghao .mima .tupian2 img {
+  width: 38px;
+  height: 34px;
+}
+.main .zhongjian .tab ul .zhanghao .mima input {
+  height: 36px;
+  width: 275px;
+  line-height: 36px;
+  font-size: 14px;
+  color: #4a4a4f;
+  text-indent: 14px;
+  border: 1px solid #ccc;
+  border-left: none;
+}
+.main .zhongjian .tab ul .zhanghao .bottomtips {
+  width: 320px;
+  height: 37px;
+  margin-top: 40px;
+  font-size: 12px;
+}
+.main .zhongjian .tab ul .zhanghao .bottomtips img {
+  width: 12px;
+  height: 18px;
+}
+.main .zhongjian .tab ul .zhanghao .bottomtips .aa {
+  padding-left: 5px;
+  color: black;
+}
+.main .zhongjian .tab ul .zhanghao .bottomtips .aa:hover {
+  color: red;
+}
+.main .zhongjian .tab ul .zhanghao .bottomtips p {
+  float: right;
+  color: black;
+}
+.main .zhongjian .tab ul .zhanghao .anjian {
+  width: 320px;
+  height: 52px;
+}
+.main .zhongjian .tab ul .zhanghao .anjian .denglubtn {
+  background-color: #f6342f;
+  border: medium none;
+  border-radius: 3px;
+  color: #fff;
+  cursor: pointer;
+  font-family: "Microsoft YaHei";
+  font-size: 18px;
+  height: 43px;
+  line-height: 43px;
+  overflow: hidden;
+  width: 321px;
+  letter-spacing: 5px;
+}
+.main .zhongjian .bottom {
+  width: 406px;
+  height: 51px;
+}
+.main .zhongjian .bottom ul {
+  position: absolute;
+  right: 1px;
+  bottom: 1px;
+  padding-right: 20px;
+  line-height: 50px;
+  border-top: 1px solid #f4f4f4;
+  height: auto;
+  width: 386px;
+  background-color: #fcfcfc;
+  text-align: left;
+}
+.main .zhongjian .bottom ul li {
+  float: left;
+  width: 85px;
+  text-align: center;
+}
+.main .zhongjian .bottom ul li img {
+  width: 19px;
+  height: 18px;
+}
+.main .zhongjian .bottom ul li a {
+  font-size: 13px;
+}
+
+#footer {
+  width: 100%;
+}
+
+.footer {
+  height: 97px;
+}
+.footer p {
+  font-size: 12px;
+  line-height: 97px;
+  text-align: center;
+}
+
+/*# sourceMappingURL=denglu.css.map */
